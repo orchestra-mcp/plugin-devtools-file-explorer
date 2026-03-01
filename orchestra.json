@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-devtools-file-explorer",
+    "description": "devtools-file-explorer tools plugin for Orchestra MCP.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-devtools-file-explorer/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-devtools-file-explorer"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "devtools-file-explorer",
+    "extra": {
+        "plugin-id": "tools.devtools-file-explorer",
+        "provides": ["tools"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
